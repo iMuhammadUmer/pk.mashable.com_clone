@@ -113,5 +113,40 @@ p {
 .featured {
   width: 100%;
   height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: var(--black);
+}
+.featured .col1 {
+  width: 150px;
+  height: 175px;
+}
+#facebookBg {
+  background-image: url(https://sm.mashable.com/t/mashable_pk/news/f/facebook-t/facebook-to-acquire-giphy-for-400-million_tbcj.300.jpg);
+  background-position: center;
+}
+#laptopBg {
+  background-image: url(https://sm.mashable.com/t/mashable_pk/news/a/apple-now-/apple-now-lists-2013-macbook-air-and-2014-macbook-pro-as-vin_baje.300.jpg);
+  background-position: center;
+}
+#netflixBg {
+  background-image: url(https://sm.mashable.com/t/mashable_pk/news/n/netflix-st/netflix-starts-to-bring-streaming-quality-back-to-normal_jrwt.300.jpg);
+  background-position: center;
+}
+.featured .col2 {
+  width: 245px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#safariBg {
+  background-image: url(https://sm.mashable.com/t/mashable_pk/photo/default/58ba398a5857b_v1d8.200.jpg);
+}
+#chromeBg {
+  background-image: url(https://sm.mashable.com/t/mashable_pk/news/g/googles-ch/googles-chrome-browser-will-block-battery-draining-data-guzz_xdgb.200.png);
+}
+#sleepingBg {
+  background-image: url(https://sm.mashable.com/t/mashable_pk/photo/default/source_k6v4.200.gif);
+  background-size: cover;
 }
