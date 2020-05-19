@@ -74,7 +74,6 @@ main .contentArea {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--blue);
   color: white;
 }
 main .col1 {
@@ -149,4 +148,9 @@ p {
 #sleepingBg {
   background-image: url(https://sm.mashable.com/t/mashable_pk/photo/default/source_k6v4.200.gif);
   background-size: cover;
+}
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
