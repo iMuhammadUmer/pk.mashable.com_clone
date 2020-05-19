@@ -6,6 +6,11 @@
 }
 :root {
   --blue: #00aeef;
+  --bodyBg: #f6f5f2;
+  --tag: #b2e3f9;
+}
+body {
+  background-color: var(--bodyBg);
 }
 header {
   height: 45px;
@@ -45,4 +50,62 @@ nav li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 7em;
+}
+main {
+  height: 340px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.7em;
+}
+main .content {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+main .contentArea {
+  width: 95%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue);
+  color: white;
+}
+main .col1 {
+  width: 500px;
+  height: 300px;
+  color: white;
+}
+h1 {
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 400;
+}
+main .col2 {
+  width: 250px;
+  height: 275px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main .row {
+  width: 250px;
+  height: 75px;
+}
+#tag {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  color: var(--tag);
+  text-transform: uppercase;
+}
+p {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
 }
