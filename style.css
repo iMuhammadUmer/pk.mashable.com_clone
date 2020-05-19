@@ -8,6 +8,7 @@
   --blue: #00aeef;
   --bodyBg: #f6f5f2;
   --tag: #b2e3f9;
+  --black: #121212;
 }
 body {
   background-color: var(--bodyBg);
@@ -77,7 +78,7 @@ main .contentArea {
   color: white;
 }
 main .col1 {
-  width: 500px;
+  width: 530px;
   height: 300px;
   color: white;
 }
@@ -108,4 +109,9 @@ p {
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
+}
+.featured {
+  width: 100%;
+  height: 250px;
+  background-color: var(--black);
 }
