@@ -219,3 +219,28 @@ section .whatsNew {
   flex-direction: column;
   align-items: center;
 }
+.whatsHot .row {
+  width: 560px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: white;
+}
+.whatsHot .row img {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+.whatsHot .row .content {
+  height: 135px;
+  width: 520px;
+  background-color: yellow;
+  position: absolute;
+  top: 980px;
+}
+footer {
+  height: 170px;
+  width: 100%;
+}
