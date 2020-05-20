@@ -194,5 +194,21 @@ section .whatsNew {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: yellow;
+}
+.whatsRising .row {
+  width: 345px;
+  height: 355px;
+  background-color: white;
+  margin-bottom: 1em;
+}
+.whatsRising img {
+  width: 345px;
+  height: 230px;
+}
+.whatsRising h1 {
+  height: auto;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 1em 1em 1em 1em;
 }
