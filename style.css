@@ -155,15 +155,21 @@ section {
   justify-content: space-around;
 }
 section .whatsNew {
-  width: 350px;
+  width: 300px;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: white;
+}
+.whatsNew img {
+  width: 85px;
+  height: 75px;
+  padding-left: 1em;
 }
 .whatsNew .row {
-  width: 350px;
+  width: 300px;
   height: 104px;
   display: flex;
   justify-content: space-between;
@@ -181,4 +187,12 @@ section .whatsNew {
   font-size: 15px;
   line-height: 60px;
   font-weight: 600;
+}
+.whatsRising {
+  height: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
 }
