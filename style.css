@@ -212,3 +212,10 @@ section .whatsNew {
   font-weight: 400;
   margin: 1em 1em 1em 1em;
 }
+.whatsHot {
+  width: 620px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
