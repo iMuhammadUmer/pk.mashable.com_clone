@@ -223,13 +223,19 @@ section .whatsNew {
   flex-direction: column;
   align-items: center;
 }
+.whatsHot h1 {
+  height: auto;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 1em 1em 1em 1em;
+}
 .whatsHot .row {
   width: 560px;
-  height: 490px;
+  height: 460px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-color: white;
 }
 .whatsHot .row img {
@@ -240,12 +246,12 @@ section .whatsNew {
 .whatsHot .row .content {
   height: 135px;
   width: 520px;
-  background-color: yellow;
+  background-color: white;
   position: absolute;
   top: 980px;
 }
-#bold {
-  font-weight: 800;
+.whatsHot .row .content a:hover {
+  text-decoration: underline;
 }
 footer {
   height: 170px;
