@@ -9,6 +9,10 @@
   --bodyBg: #f6f5f2;
   --tag: #b2e3f9;
   --black: #121212;
+  --footerNav: #aaaaaa;
+}
+a {
+  color: var(--black);
 }
 body {
   background-color: var(--bodyBg);
@@ -240,7 +244,56 @@ section .whatsNew {
   position: absolute;
   top: 980px;
 }
+#bold {
+  font-weight: 800;
+}
 footer {
   height: 170px;
   width: 100%;
+  box-shadow: 0px 1px 10px var(--footerNav);
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+footer p {
+  width: 700px;
+  height: 45px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 1em;
+}
+footer .footerNav {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+.footerNav ul {
+  width: 750px;
+  margin-right: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerNav li {
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 400;
+  color: var(--footerNav);
+}
+.footerNav a {
+  color: inherit;
+}
+footer .licence {
+  width: 40%;
+  margin-left: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.licence p {
+  width: 80%;
+  height: 25px;
 }
